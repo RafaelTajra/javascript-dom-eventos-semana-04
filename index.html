@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Semana 04 - Arrays, DOM e Eventos</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f4f6f8;
+            color: #222;
+        }
+
+        h1 {
+            color: #1f3c88;
+        }
+
+        .destaque {
+            color: #1f3c88;
+            font-weight: bold;
+        }
+
+        .feito {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        button {
+            padding: 10px 16px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+
+        input {
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        li {
+            margin: 8px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="titulo">
+        Blog
+    </h1>
+
+    <p class="texto">
+        Primeiro parágrafo de exemplo para manipulação do DOM.
+    </p>
+
+    <p class="texto">
+        Segundo parágrafo de exemplo para manipulação do DOM.
+    </p>
+
+    <h2>Lista</h2>
+
+    <ul id="lista">
+
+        <li>Item inicial 1</li>
+        <li>Item inicial 2</li>
+        <li>Item inicial 3</li>
+
+    </ul>
+
+
+    <h2>Eventos</h2>
+
+    <button id="botao">
+        Clique aqui
+    </button>
+
+    <br>
+
+    <label for="nome">
+        Nome:
+    </label>
+
+    <input
+        type="text"
+        id="nome"
+        placeholder="Digite seu nome"
+    >
+
+
+    <h2>Adicionar tarefa</h2>
+
+    <form id="formulario">
+
+        <label for="tarefa">
+            Nova tarefa:
+        </label>
+
+        <input
+            type="text"
+            id="tarefa"
+            placeholder="Digite uma tarefa"
+        >
+
+        <button type="submit">
+            Adicionar
+        </button>
+
+    </form>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
